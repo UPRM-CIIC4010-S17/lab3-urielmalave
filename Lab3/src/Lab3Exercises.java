@@ -5,7 +5,9 @@ public class Lab3Exercises {
         JFrame myFrame = new JFrame("Uriel Malave");
         myFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         myFrame.setLocation(600, 400);
-        myFrame.setSize(200, 200);
+        myFrame.setSize(300, 300);
+        MyPanelClass myPanel = new MyPanelClass();
+        myFrame.getContentPane().add(myPanel);
         myFrame.setVisible(true);
     }
 } 
