@@ -10,4 +10,4 @@ public class Lab3Exercises {
         myFrame.getContentPane().add(myPanel);
         myFrame.setVisible(true);
     }
-} 
+}  
